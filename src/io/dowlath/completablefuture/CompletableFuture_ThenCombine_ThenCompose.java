@@ -6,7 +6,7 @@ public class CompletableFuture_ThenCombine_ThenCompose {
     public static void main(String[] args) {
         int userId = 5;
 
-        //getValue1Async(userId).thenCombine(getValue2Async(userId),(a,b) -> a+b)
+        // getValue1Async(userId).thenCombine(getValue2Async(userId),(a,b) -> a+b)
          //       .thenAccept(integer -> System.out.println(integer));
        // sleep();  // output: 70
 

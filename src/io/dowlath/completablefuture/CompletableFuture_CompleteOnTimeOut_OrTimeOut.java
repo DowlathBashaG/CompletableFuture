@@ -3,7 +3,7 @@ package io.dowlath.completablefuture;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 
-// completOnTimeout added this feature in java9
+//  completOnTimeout added this feature in java9
 public class CompletableFuture_CompleteOnTimeOut_OrTimeOut {
     public static void main(String[] args) {
         System.out.println("Main start ....");

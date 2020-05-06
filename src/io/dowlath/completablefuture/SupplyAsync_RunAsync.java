@@ -2,7 +2,7 @@ package io.dowlath.completablefuture;
 
 import java.util.concurrent.CompletableFuture;
 
-// Example for CompletableFuture -> supplyAsync , runAsync
+//  Example for CompletableFuture -> supplyAsync , runAsync
 public class SupplyAsync_RunAsync {
     public static void main(String[] args) {
        // ifRunTakingSuchALongTime();

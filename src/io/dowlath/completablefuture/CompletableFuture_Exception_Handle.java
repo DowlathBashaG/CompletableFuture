@@ -10,7 +10,7 @@ public class CompletableFuture_Exception_Handle {
       //  ifErrorThrowsHandleErrorWillPrintTheValue(); // output is 100. // 3
       //  ifNoErrorGoodTrack();  // output is 1000  // 4
       //  ifErrorComesGoodTrack(); // output is 20000 // 5
-      //  ifAnotherGetValueItsBlowUp(); // No output...if you want test using join(); will get RuntimeExcepton(); // 6
+      //  ifAnotherGetValueItsBlowUp(); // No output... if you want test using join(); will get RuntimeExcepton(); // 6
           getMoreInfo(); // Final Conclusion. // output : 101
     }
 

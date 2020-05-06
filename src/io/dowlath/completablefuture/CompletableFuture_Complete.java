@@ -3,7 +3,7 @@ package io.dowlath.completablefuture;
 import java.util.concurrent.CompletableFuture;
 
 /*
-   This feature will be useful for process the data from database or other networks.
+    This feature will be useful for process the data from database or other networks.
 */
 public class CompletableFuture_Complete {
     public static void main(String[] args) {

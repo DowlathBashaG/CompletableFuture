@@ -21,9 +21,11 @@ public class SupplySync_Then_Apply_Accept_Run {
                 .thenAccept(System.out::println)
                 .thenRun(SupplySync_Then_Apply_Accept_Run::longProcess)
                 .thenRun(SupplySync_Then_Apply_Accept_Run::longProcess);
-       /* with this sleepAWhile run wont execute bcoz main method is
+       /*
+          with this sleepAWhile run wont execute bcoz main method is
           not waiting, its suddenly up. here waiting time is 3000 (3 secs)
           so increase with sleepLongWhile with 10 secs.so i m commenting now for while.
+
         */
 
        //sleepAWhile();
